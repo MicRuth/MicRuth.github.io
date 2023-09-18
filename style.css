@@ -11,6 +11,7 @@ body {
 
 /* navigation menu */
 nav {
+    border-radius: 30px;
     background: rgb(11, 163, 209);
     margin: 0 auto;
     margin-bottom: 20px;
