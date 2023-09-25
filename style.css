@@ -17,6 +17,7 @@ nav {
     margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border-radius: 50% 20% / 10% 40%;
 }
 h1 {
     display: flex;
@@ -39,8 +40,10 @@ a {
 
 /* main container area beneath menu */
 main {
+    border-radius: 30px;
     background: rgb(1, 100, 171);
     display: flex;
+    margin: auto;
 }
 .sidebar {
     margin-right: 25px;
@@ -62,3 +65,77 @@ main {
 h2, h3 {
     margin: 0px;
 }
+         /* portfolio styles */
+         .content h1 {
+            color: rgb(9, 166, 245);
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #ff9500;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: #ffe601;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #ff0202;
+        }
+                    /* responsive web design */
+                    @media screen and (min-width: 120px) and (max-width: 1080px) {
+                        main {
+                          height: 100ch;
+                          zoom: 1.5;
+                          display: grid;
+                        }
+          
+                        h1 {
+                          font-size: 44px;
+                        }
+          
+                        h2 {
+                          font-size: 42px;
+                        }
+          
+                        h3 {
+                          font-size: 36px;
+                        }
+          
+                        #all-contents {
+                          height: 100ch;
+                          margin: none;
+                        }
+          
+                        a {
+                          font-size: 42px;
+                        }
+          
+                        .sidebar {
+                          margin-right: 0px;
+                          justify-content: center;
+                          align-items: center;
+                        }
+          
+                        .sidebar-img {
+                          width: 100%;
+                        }
+          
+                        p,
+                        li {
+                          font-size: 24px;
+                        }
+          
+                        .content {
+                          align-content: center;
+                          justify-content: center;
+                        }
+                    }
